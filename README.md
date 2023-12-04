@@ -1,2 +1,2 @@
 # CoastalExplorer
-A Babylon JS webgame exploring a beach and coast.
+A Babylon JS webgame exploring a coastal area.

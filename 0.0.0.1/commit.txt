@@ -1,0 +1,1 @@
+We start with the very basics, an index.html, the game.js, some style.css, the logo and favicon, and we link against the CDNs of Babylon.js. The scene compiles via Live Server and Google Chrome on a Windows 11 Machine with nVidia GPU.

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Coastal Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="fav.ico">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- BabylonJS Core & Erweiterungen -->
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+  <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+  <script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+  <script src="https://cdn.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+</head>
+<body>
+  <div id="container">
+    <canvas id="renderCanvas"></canvas>
+
+    <div id="uiOverlay">
+      <div class="ui-box logo-square" id="sizeDisplay"></div>
+    </div>
+  </div>
+
+  <!-- Dein Haupt-JS-Modul -->
+  <script type="module" src="game.js"></script>
+</body>
+</html>

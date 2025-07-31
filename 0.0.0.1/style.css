@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+
+#renderCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+
+#uiOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.ui-box {
+  position: absolute;
+  pointer-events: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+
+.logo-square {
+  bottom: 5%;
+  right: 5%;
+  width: 15%;
+  aspect-ratio: 1 / 1;
+  background-color: rgba(100, 255, 150, 0.0);
+  background-image: url('./logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
